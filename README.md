@@ -40,6 +40,13 @@ Adobe Stock Contributor first (web upload or SFTP bulk upload). Other sites earn
 - The image generator's terms must allow commercial use and resale of outputs.
 - Nearly all revenue depends on one platform, and Adobe controls pricing and review.
 
+## Handoff (for Claude, ChatGPT or any agent picking this up)
+1. Read this README, then the newest files in `logs/` (newest first). The latest log is the current state; `from-cto-new/` holds any carried-over notes.
+2. Run `prompts/daily-progress-check.md`, then `prompts/daily-next-content.md` (paste each prompt plus the files above into the assistant). On Mondays, also run `prompts/weekly-metrics-review.md`.
+3. Save the output as `logs/YYYY-MM-DD.md` (SAST date), with `# Log YYYY-MM-DD` as the first line and each prompt's section appended below it. Append if the file already exists.
+4. Never invent metrics, never upload to stock sites, never sign up for accounts or paid tools. Anything that needs Kevin gets marked **[KEVIN]**.
+5. Status log: Day 1 = 2026-09-27 (see `logs/2026-09-27.md`). As of that date: no Adobe account, no generator chosen, no API-key secret, so the daily workflow is skipping.
+
 ## Repo layout
 - `README.md`: this plan
 - `assets/`: source files and exports (keep large binaries out of git where you can)
