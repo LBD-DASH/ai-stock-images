@@ -82,31 +82,25 @@ Last updated: 2026-09-27 17:20 SAST (Printables Repo agent)
 3. Draft the One-on-One Meeting Template copy. Write the printed text for a 2-page A4 layout: page 1 is the meeting sheet (employee agenda first, Workload/Energy/Clarity 1-5 check, feedback both ways, one growth skill, actions table) and page 2 is a 12-month tracker. Output as markdown with a heading per page and one bullet per field label, ready to lay out.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-27 17:15 SAST (Grok Bot, Day 1 daily run; work is in commit 913ef27)
+Last updated: 2026-09-27 17:45 SAST (Claude, daily agent run)
 
 ### Done today
-- Repo scaffolded: README plan, 3 prompts, `scripts/run_prompts.py` and the daily workflow.
-- Day 1 of the 30-day plan logged in [`logs/2026-09-27.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-27.md).
-- Do-not-generate list written (real people, brands and logos, artists' styles, protected landmarks, copyrighted characters, fake news events, readable text, careless use of religious symbols).
-- 36 prompts drafted, each theme with a title template and an ordered keyword list, across 3 themes: holiday backgrounds with copy space; New Year and Q1 planning with no identifiable people; evergreen abstract textures.
-- README handoff section added for Claude, ChatGPT or any agent picking this up.
-- Daily 06:29 SAST agent run set up (this agent). The repo's 06:17 SAST GitHub Action skips because there's no API key, by design.
+- Repo scaffolded, Day 1 logged, do-not-generate list and 36 prompts drafted (all by Grok Bot earlier today — see [`logs/2026-09-27.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-27.md)).
+- Answered all 4 items under "Instructions for Claude and ChatGPT" below, appended to the same log. No sign-ups, purchases or uploads made — still blocked on an Adobe account and a chosen generator, so no images were produced today.
+- **(a)** Live Adobe Stock theme validation: [`from-cto-new/theme-validation-2026-09-27.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/theme-validation-2026-09-27.md). All 3 broad theme names are heavily saturated (abstract background texture: ~61.4M results); the niche prompts already drafted (Diwali, wooden-blocks-growth, terrazzo) sit far shallower — prioritise those.
+- **(b)** Generator/upscaler comparison (5 tools, licence + ZAR cost + resolution) in the log. Recommendation: Adobe Firefly Premium + Topaz Gigapixel Personal, ≈R283/mo, under budget, safest IP position since Firefly trains only on licensed Adobe Stock content.
+- **(c)** Adobe Stock's current generative-AI contributor rules, 9 bullets with source links, in the log.
+- **(d)** Flagged the missing `blackvault/new-income-ideas-2026-09-27.md` research file for Kevin (see Next up).
 
 ### Next up
-- Live demand validation in Adobe Stock search for the 3 themes (result counts, what's already saturated).
-- Days 2 to 3: generate candidates from the 36 prompts once a generator exists, then curate, upscale and QA.
+- **[KEVIN]** Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal) — nothing else in this project can move until this exists. (yes started / not yet)
+- **[KEVIN]** Approve Adobe Firefly Premium + Topaz Gigapixel Personal (≈R283/mo) as the generator/upscaler pair, or say if you'd rather compare further? (approve / compare more)
+- **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it isn't needed for this project? (add it / not needed)
+- Once a generator is approved: Days 2–3, generate candidates from the 36 prompts (prioritising the niche variants found in (a)), then curate, upscale and QA.
 - Monday 28 Sep: the weekly metrics review (`prompts/weekly-metrics-review.md`).
 
 ### Instructions for Claude and ChatGPT
-Read the README and `logs/2026-09-27.md` first. Don't sign up for anything, buy anything or upload anything. Mark anything that needs Kevin with **[KEVIN]**.
-- **(a) Theme validation.** Check the 3 themes against current Adobe Stock search results. Return a table with the columns theme, sample search term, rough result count and competition note. Save it as `from-cto-new/theme-validation-YYYY-MM-DD.md`.
-- **(b) Generator and upscaler comparison.** Compare 3 to 5 image generators and upscalers on commercial stock-resale licence terms, monthly cost in ZAR and max resolution. Return a table plus one recommendation for Kevin. No sign-ups or purchases.
-- **(c) Adobe Stock AI rules.** Check Adobe Stock's current generative AI contributor rules (the disclosure checkbox, title rules and keyword rules). Summarise them in 5 to 10 bullets with source links.
-- **(d) Missing research file.** The README cites `blackvault/new-income-ideas-2026-09-27.md`, which isn't in the repo. Ask Kevin to add it to `from-cto-new/` or confirm it isn't needed.
-
-**Decisions only Kevin can make [KEVIN]:**
-- Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal). Nothing can be uploaded until it exists.
-- Approve R400 to R800 a month for an image generator, once its licence is confirmed to allow commercial stock resale.
+None today — all 4 items from the previous brief are answered in `logs/2026-09-27.md`. Next outside-AI brief will follow once Kevin answers the [KEVIN] items above, most likely a next-content or metrics pass once a generator is chosen.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
 Last updated: 2026-09-27 17:15 SAST (Grok Bot)
