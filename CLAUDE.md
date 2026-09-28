@@ -28,3 +28,4 @@
 - Keep YardOps, Six Human Needs and Leadership by Design out of this repo.
 - Never use em dashes in files you write.
 - End each run with a five-line summary: what you did, files changed, commits pushed, decisions needed from Kevin, tomorrow's plan.
+<!-- launchd permission test -->
