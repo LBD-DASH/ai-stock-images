@@ -64,19 +64,17 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-29 06:33 SAST (Printables Repo agent)
+Last updated: 2026-09-29 19:01 SAST (Claude follow-up)
 
 ### Done today
 - Day 3 log: link to logs/2026-09-29.md (progress + next content; weekly metrics skipped, not Monday).
 - Updated One-on-One Meeting Template Canva brief with printability deltas vs Day 2 (Manager + Next 1:1 fields, hard ≥8 mm line heights, Actions before Feedback/Growth, privacy callout, tracker Next-1:1 column).
 - Full Weekly Team Check-in Sheet Canva layout + paste-ready Etsy listing (title/13 tags/description/price) in today's log.
-- Marked Claude's Day 2 Instructions 1 and 3 as used (listing rewrite + 1:1 critique). Live Etsy re-check (Instruction 2) still outstanding. Note: `etsy/LISTING_ONE_ON_ONE.md` and `logs/critique-one-on-one-layout-2026-09-28.md` are still missing from main.
-- Merged SHARED_UPDATES across the four repos (faceless-youtube-content as merge base).
+- Claude follow-up (19:01 SAST): confirmed `etsy/LISTING_ONE_ON_ONE.md` and `logs/critique-one-on-one-layout-2026-09-28.md` are already on main (landed in yesterday's follow-up commit, just after this morning's snapshot was written — no action needed). Wrote `logs/critique-weekly-team-check-in-2026-09-29.md` (5-point printability critique) and `etsy/LISTING_WEEKLY_CHECK_IN.md` (SHOP_COPY.md-style listing). Live Etsy re-check still blocked: WebFetch/WebSearch both denied permission in this headless run.
 
 ### Next up
 - Layout the updated One-on-One Meeting Template in Canva (A4 + Letter PDFs into products/one-on-one-meeting-template/) using Day 2 brief + Day 3 deltas.
-- Layout the Weekly Team Check-in Sheet in Canva from today's log (A4 + Letter into products/weekly-team-check-in/).
-- If Claude still has local copies, commit the missing `etsy/LISTING_ONE_ON_ONE.md` and `logs/critique-one-on-one-layout-2026-09-28.md` to main.
+- Layout the Weekly Team Check-in Sheet in Canva from today's log, applying the 5 printability fixes in logs/critique-weekly-team-check-in-2026-09-29.md (A4 + Letter into products/weekly-team-check-in/).
 - Make build scripts runnable from the repo alone.
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
 - [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
@@ -85,13 +83,11 @@ Last updated: 2026-09-29 06:33 SAST (Printables Repo agent)
 - [KEVIN] Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
 
 ### Instructions for Claude and ChatGPT
-1. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding from Day 2; was blocked headless.)
-2. Critique the NEW Weekly Team Check-in layout in logs/2026-09-29.md for printability (line height, section order, missing fields a real first-time team lead needs). Output 5 specific fix suggestions as a numbered list. Save as logs/critique-weekly-team-check-in-2026-09-29.md.
-3. Rewrite the Weekly Team Check-in paste-ready listing from logs/2026-09-29.md into etsy/SHOP_COPY.md style (title/exactly 13 tags/full description with WHAT YOU GET / HOW TO USE / LICENCE / PLEASE NOTE / Designed by / AI disclosure placeholder). Save as etsy/LISTING_WEEKLY_CHECK_IN.md.
-4. If you still have local copies of etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md from the 28 Sep follow-up, commit them to main (they are missing from the repo). Do not rewrite the 1:1 listing or re-do the same 1:1 critique.
+1. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Blocked headless twice now, 28 and 29 Sep; needs an interactive session with WebFetch/WebSearch approved, or Kevin to paste the numbers by hand.)
+2. Apply the 5 fixes in logs/critique-weekly-team-check-in-2026-09-29.md to the Weekly Team Check-in brief before it's built in Canva, the same way Day 3's 1:1 deltas were applied to the Day 2 brief.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-29 06:35 SAST (Grok Bot, Day 3 daily run)
+Last updated: 2026-09-29 19:15 SAST (Claude follow-up)
 
 ### Done today
 - Day 3 of the 30-day plan logged in [`logs/2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-29.md): progress check + next-content batch (no weekly metrics; not Monday).
@@ -99,6 +95,7 @@ Last updated: 2026-09-29 06:35 SAST (Grok Bot, Day 3 daily run)
 - Firefly stock-resale confirmation: **yes** (commercially released Firefly may be submitted to Adobe Stock with gen-AI guidelines, no watermark). [`from-cto-new/firefly-stock-resale-2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/firefly-stock-resale-2026-09-29.md).
 - Contributor setup checklist for a South African individual: [`docs/adobe-contributor-setup.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/docs/adobe-contributor-setup.md). Adobe lists **Payoneer as required for South Africa**.
 - Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
+- Claude follow-up (19:15 SAST): re-checked this repo, `from-cto-new/`, `prompts/` and `logs/` for anything new since the 06:35 SAST run; nothing actionable was left (Instructions for Claude and ChatGPT said "None today", and generation stays blocked until Kevin creates the Contributor account and approves a generator). Pulled in Printables' newer 19:01 SAST section from `shift-leadership-printables` below. No SHARED_UPDATES changes were needed from Princess Baylin or Faceless YouTube (their own repo copies are older than what was already merged in here this morning).
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
