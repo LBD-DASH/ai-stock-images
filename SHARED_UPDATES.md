@@ -96,14 +96,15 @@ Last updated: 2026-09-30 14:47 SAST (Claude follow-up)
 4. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding; blocked headless on 28, 29 and 30 Sep — WebSearch permission is not grantable in a non-interactive run. Needs an interactive session with WebSearch/WebFetch approved, or Kevin to paste the numbers by hand.)
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-30 16:40 SAST (Claude, second follow-up)
+Last updated: 2026-09-30 19:15 SAST (Claude, third follow-up)
 
 ### Done today
 - Day 4 of the 30-day plan logged in [`logs/2026-09-30.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-30.md): progress check + next-content batch (no weekly metrics; not Monday).
 - Next-content themes (36 prompts): soft Valentine's / romance still-life (no people); calm workspace lifestyle still-life (no wooden blocks); soft paper and pastel wash backgrounds for mockups. Pilot-focused; not a repeat of Day 1-3 themes.
 - Afternoon follow-up (14:45 SAST): confirmed SHARED_UPDATES.md synced; no Instructions for Claude/ChatGPT.
 - Second follow-up (this run): this repo's copy of SHARED_UPDATES.md was stale (Printables 06:33, Princess Baylin 06:42, Faceless YouTube 06:48 SAST versions), while the sibling repos had since moved on (Printables 14:47, Princess Baylin 15:10, Faceless YouTube 15:15 SAST). Re-synced this repo's copy from the sibling repos' latest sections and the fuller Cross-project notes list. Could not write the merged file back out to the other three repos from this session (cross-repo git access is sandboxed here); their own agents already hold equal-or-newer copies, so no data was lost, but the next run of this repo's agent should confirm all four are still aligned. Still no Instructions for Claude/ChatGPT for this repo today, so no content task run.
-- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
+- Third follow-up (this run): re-checked all three sibling repos' working trees directly. Princess Baylin's third pass (16:36 SAST) and Faceless YouTube's second follow-up (16:36 SAST) added no new content relevant to this repo (WebSearch/WebFetch still blocked for Princess Baylin; Faceless YouTube added an Ep 1 shot board and pushed its own pending commits to origin). Cross-project notes list is unchanged since the last sync (no new notes). Pushed this repo's two previously-local commits (2026-09-30 Claude follow-up and second follow-up) to origin/main so sibling repos read current state.
+- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads. Still no Instructions for Claude/ChatGPT for this repo today; same three items remain blocked on Kevin (Adobe Stock Contributor account, Firefly+Topaz approval, blackvault file).
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
@@ -115,9 +116,10 @@ Last updated: 2026-09-30 16:40 SAST (Claude, second follow-up)
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-30 15:10 SAST (Princess Baylin agent, second run)
+Last updated: 2026-09-30 16:36 SAST (Princess Baylin agent, third pass)
 
 ### Done today
+- Third pass: re-tried WebSearch/WebFetch directly; both still return a permission error in this headless session (same block as 28/29/30 Sep). No new content added this pass to avoid duplicating the second run; see logs/2026-09-30.md "Third pass" section.
 - YouTube handoff for Episode 3 at handoff/youtube/2026-09-30.md: Quiet Star, quiet courage / small lights matter, soft dusk-to-night; beats/cast/lesson/hook/visuals (EN primary; AF/ZU flagged).
 - Day 4 log at logs/2026-09-30.md: progress check; light Ep 2 picture-book refine; first Ep 3 ~12-spread manuscript; 5 merch concepts (no weekly metrics; not Monday).
 - docs/character-sheet-draft.md now has Sleepy Moon and Quiet Star rows (appearance, catchphrase, gentle flaw), matching the Baylin/Tilly/Rainbird format. All five named cast members now on the sheet.
@@ -125,13 +127,14 @@ Last updated: 2026-09-30 15:10 SAST (Princess Baylin agent, second run)
 - reviews/2026-09-30-language.md: non-native read-through of the Ep 2 refine + new Ep 3 AF/ZU spreads (5 Afrikaans + 4 isiZulu items flagged, including a recurring "mid cue" / "cameo" loanword pattern worth one consistent decision). Not a native-speaker check.
 - Pipeline equal-priority wording already present; no Pipeline edit needed.
 - assets/story/ still missing the original story (404).
-- Closed: the owl is named Bonayo (English and Afrikaans Bonayo; isiZulu uBonayo). The "owl unnamed" decision is closed. Recorded in CLAUDE.md canon cast. NEEDS NATIVE-SPEAKER CHECK on the Afrikaans and isiZulu name lines.
-- Closed: YouTube channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title. The channel is live at https://www.youtube.com/@PrincessBaylinDiaries, made for kids. Handoff template: handoff/youtube/TEMPLATE.md.
+- Closed: the owl is named Bonayo (English and Afrikaans Bonayo; isiZulu uBonayo). The "owl unnamed" decision is closed. Recorded in CLAUDE.md canon cast. No unnamed-owl wording was present in this repo's episode scripts, manuscripts, or handoff/youtube files.
+- Closed: YouTube channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title.
 - Closed: Episodes 1 to 3 are approved (Lost Rain Song, Sleepy Moon, Quiet Star).
-- Closed: voices are three separate dedicated voices, one per language (English, Afrikaans, isiZulu), never a single South African-accented English voice. Applies to Episodes 1 to 3 and all future episodes. No voice IDs assigned.
+- Closed: voices are three separate dedicated voices, one per language (English, Afrikaans, isiZulu). Never a single South African-accented English voice. Applies to Episodes 1 to 3 and all future episodes.
 - Closed: narrator is an old wise man with a warm, deep storytelling tone (not young, not neutral). Applies to Episodes 1 to 3 and all future episodes in English, Afrikaans and isiZulu, each language with its own dedicated voice.
 - Closed: art style looks like an old man drawing for his granddaughter. Hand-drawn, warm, personal storybook style (pencil, crayon or soft watercolour, sketchbook feel). Applies to Episodes 1 to 3 and all future episodes.
 - Closed: AI disclosure is always on. Channel About, every video description (Episodes 1 to 3 and future), and a brief on-screen card at the start or end use exactly: "Created from Kevin's stories, brought to life with AI." No other disclosure wording.
+- Channel is live: Princess Baylin Diaries, https://www.youtube.com/@PrincessBaylinDiaries, set as made for kids. Handoff template: handoff/youtube/TEMPLATE.md.
 
 ### Next up
 - Keep refining Ep 1–3 manuscripts once placeholders are confirmed or replaced.
@@ -147,19 +150,21 @@ Last updated: 2026-09-30 15:10 SAST (Princess Baylin agent, second run)
 3. Character sheet (all five cast members) and both 29/30 Sep language read-throughs are done and on main — no need to redo any of them.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-30 15:15 SAST (Faceless YouTube Repo agent, follow-up run)
+Last updated: 2026-09-30 16:36 SAST (Faceless YouTube Repo agent, second follow-up run)
 
 ### Done today
 - Episode 3 full production script at [`scripts/2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-09-30.md) (built from princess-baylin [`handoff/youtube/2026-09-30.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-09-30.md))
 - Day 4 log at [`logs/2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-30.md) (progress check; weekly metrics skipped, not Monday)
 - Follow-up run (2026-09-29, folded in): [`logs/critique-ep2-2026-09-29.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/critique-ep2-2026-09-29.md) (pacing/word count/kid-safety, 7 fixes) and [`scripts/drafts/episode-2-shotboard.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-2-shotboard.md) (12-scene shot board).
 - **Ep 2 script/handoff mismatch is resolved:** Kevin's 2026-09-30 canon decision approved Episodes 1 to 3 as they stand (Lost Rain Song, Sleepy Moon, Quiet Star), so `scripts/2026-09-29.md` ("Baylin fetches the moon") stays as written; no rebuild from the later handoff.
-- Follow-up run (2026-09-30, this run): [`logs/critique-ep3-2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/critique-ep3-2026-09-30.md) (pacing/word count/kid-safety, 7 fixes, including flagging the unresolved firefly-vs-moth choice) and [`scripts/drafts/episode-3-shotboard.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-3-shotboard.md) (12-scene shot board; picked firefly as the working creature, flagged for Kevin to confirm).
+- Follow-up run (2026-09-30, first): [`logs/critique-ep3-2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/critique-ep3-2026-09-30.md) (pacing/word count/kid-safety, 7 fixes, including flagging the unresolved firefly-vs-moth choice) and [`scripts/drafts/episode-3-shotboard.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-3-shotboard.md) (12-scene shot board; picked firefly as the working creature, flagged for Kevin to confirm).
 - Resolved a stuck local rebase (SHARED_UPDATES.md conflict against origin) and merged the newest per-section content from all four sister repos' local copies (Printables 14:47 SAST, AI stock images 14:45 SAST, Princess Baylin 15:10 SAST) into this file.
+- Follow-up run (2026-09-30, second, this run): checked princess-baylin for a newer handoff — none since `handoff/youtube/2026-09-30.md` (already used) — and confirmed this repo's "Instructions for Claude and ChatGPT" was empty today, so no new production was blocked or owed. Filled the one remaining gap: [`scripts/drafts/episode-1-shotboard.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-1-shotboard.md) (12-scene shot board for the approved Ep 1 script, matching the Ep 2/Ep 3 format). All three approved episodes now have shot boards.
+- Pushed two previously-local commits (2026-09-29 and 2026-09-30 follow-ups) to origin/main so sister repos read current state.
 
 ### Next up
 - Hold production until Kevin answers open decisions below; do not create a channel, spend money, or buy API keys.
-- After Ep 1 / Ep 2 / Ep 3 approval: build simple 12-scene shot boards from the visual plans (still drafts only) — Ep 2 and Ep 3 boards now done; confirm firefly vs. moth in Ep 3 before art starts.
+- All three approved episodes (Ep 1, Ep 2, Ep 3) now have 12-scene shot boards (drafts only). Confirm firefly vs. moth in Ep 3 before art starts.
 - Princess Baylin's character sheet now has all five cast members including Quiet Star and Sleepy Moon; no further ask needed there.
 - [KEVIN] Approve Ep 1 English VO in `scripts/2026-09-28.md`? (yes / changes needed)
 - [KEVIN] Approve Ep 2 English VO in `scripts/2026-09-29.md`? (yes / changes needed)
